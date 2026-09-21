@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: civicflow-postgres
+    environment:
+      POSTGRES_DB: civicflow
+      POSTGRES_USER: civicflow
+      POSTGRES_PASSWORD: civicflow
+    ports:
+      - "5434:5432"
+    volumes:
+      - civicflow-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  civicflow-postgres-data:
