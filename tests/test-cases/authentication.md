@@ -38,7 +38,7 @@ Password: Password123!
 * The user is redirected to the appropriate application page or login page.
 * The account exists in the database.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -67,7 +67,7 @@ Password: Password123!
 * A validation message indicates that first name is required.
 * No user account is created.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -92,7 +92,7 @@ Password: Password123!
 * A validation message indicates that last name is required.
 * No user account is created.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -117,7 +117,7 @@ Password: Password123!
 * A validation message indicates that email is required.
 * No user account is created.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -147,7 +147,7 @@ Email: john.smith
 * A validation message indicates that the email format is invalid.
 * No user account is created.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -180,7 +180,7 @@ Email: john.smith
 409 Conflict
 ```
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -205,7 +205,7 @@ Email: john.smith
 * A validation message indicates that password is required.
 * No user account is created.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -234,7 +234,7 @@ Password: short
 * A validation message indicates that the password does not meet the required rules.
 * No user account is created.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -256,7 +256,7 @@ Password: short
 * The password is accepted if it satisfies all configured password rules.
 * Registration succeeds.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -285,7 +285,7 @@ The system shall handle whitespace consistently according to the defined validat
 
 The behavior shall be documented and verified at both the UI and API levels.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -321,7 +321,7 @@ Password: Password123!
 * The user is redirected to the appropriate authenticated area.
 * Protected functionality becomes available.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -350,7 +350,10 @@ Password: Password123!
 401 Unauthorized
 ```
 
-**Status:** Not Run
+**Status:** Passed
+
+**Defect:** DEF-AUTH-001
+
 
 ---
 
@@ -544,7 +547,7 @@ Password: Password123!
 403 Forbidden
 ```
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -634,3 +637,5 @@ Password: Password123!
 * The selected user status is updated successfully.
 
 **Status:** Not Run
+
+
