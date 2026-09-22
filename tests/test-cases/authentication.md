@@ -382,7 +382,7 @@ Password: Password123!
 401 Unauthorized
 ```
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -405,7 +405,7 @@ Password: Password123!
 * A validation message indicates that email is required.
 * No authentication request should be submitted if client-side validation prevents submission.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -427,7 +427,7 @@ Password: Password123!
 * Login is rejected.
 * A validation message indicates that password is required.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
@@ -454,7 +454,7 @@ Password: Password123!
 * Authentication is rejected.
 * The inactive user cannot access protected functionality.
 
-**Status:** Not Run
+**Status:** Passed
 
 ---
 
